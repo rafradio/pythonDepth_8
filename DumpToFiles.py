@@ -1,6 +1,6 @@
 import os
-import json
-import csv
+import json, csv, pickle
+
 
 class DumpToFiles:
 
@@ -29,9 +29,9 @@ class DumpToFiles:
             writer = csv.writer(f_write, dialect='excel', quotechar='"', quoting=csv.QUOTE_ALL)
             writer.writerows(data)
 
-    def parseDict(self, key,  valuesDict: dict):
-        # myList = list()
-        # myList.append(key)
-        # myList = [x for x in valuesDict.values()]
-        a, b, *c = key, [x for x in valuesDict.values()]
-        return 
+    def dumpToPickle(self):
+        fileName = str(self.dirName) + '_to_pickle.picle'
+        fileNameFull = os.path.join(self.PATH, fileName)
+        with open(fileNameFull, 'wb') as f:
+            pickle.dump(self.obj, f)
+        

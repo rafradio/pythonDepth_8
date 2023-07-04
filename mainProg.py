@@ -9,8 +9,8 @@ def main(args):
     dmpf = DMPF(srlz.dictFolders, data)
     dmpf.dumpToJson()
     dmpf.dumpToCSV()
-    # for key, value in srlz.dictFolders.items():
-    #     print(f'{key}: {value}')
+    dmpf.dumpToPickle()
+
 
 if __name__ == '__main__':
     main(sys.argv)

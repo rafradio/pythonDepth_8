@@ -1,0 +1,4 @@
+"id","name","type","parent","size"
+"0","test","folder","main folder","5"
+"1","\new","folder","test","5"
+"2","hello.txt","file","\test\new","5"

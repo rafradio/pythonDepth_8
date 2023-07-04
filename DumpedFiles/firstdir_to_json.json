@@ -1,0 +1,77 @@
+{
+    "firstdir": {
+        "type": "folder",
+        "parent": "main folder",
+        "size": 731
+    },
+    "\\another": {
+        "type": "folder",
+        "parent": "firstdir",
+        "size": 5
+    },
+    "test4.txt": {
+        "type": "file",
+        "parent": "\\firstdir\\another",
+        "size": 5
+    },
+    "\\subdir": {
+        "type": "folder",
+        "parent": "firstdir",
+        "size": 9
+    },
+    "\\test": {
+        "type": "folder",
+        "parent": "\\firstdir\\subdir",
+        "size": 5
+    },
+    "\\new": {
+        "type": "folder",
+        "parent": "\\firstdir\\subdir\\test",
+        "size": 5
+    },
+    "hello.txt": {
+        "type": "file",
+        "parent": "\\firstdir\\subdir\\test\\new",
+        "size": 5
+    },
+    "test5.txt": {
+        "type": "file",
+        "parent": "\\firstdir\\subdir",
+        "size": 4
+    },
+    "first.json": {
+        "type": "file",
+        "parent": "\\firstdir",
+        "size": 16
+    },
+    "first.xml": {
+        "type": "file",
+        "parent": "\\firstdir",
+        "size": 335
+    },
+    "second.json": {
+        "type": "file",
+        "parent": "\\firstdir",
+        "size": 16
+    },
+    "test1.txt": {
+        "type": "file",
+        "parent": "\\firstdir",
+        "size": 5
+    },
+    "test2.txt": {
+        "type": "file",
+        "parent": "\\firstdir",
+        "size": 5
+    },
+    "test3.txt": {
+        "type": "file",
+        "parent": "\\firstdir",
+        "size": 5
+    },
+    "xmlsecond.xml": {
+        "type": "file",
+        "parent": "\\firstdir",
+        "size": 335
+    }
+}

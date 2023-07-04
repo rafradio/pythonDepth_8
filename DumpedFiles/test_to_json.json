@@ -1,0 +1,17 @@
+{
+    "test": {
+        "type": "folder",
+        "parent": "main folder",
+        "size": 5
+    },
+    "\\new": {
+        "type": "folder",
+        "parent": "test",
+        "size": 5
+    },
+    "hello.txt": {
+        "type": "file",
+        "parent": "\\test\\new",
+        "size": 5
+    }
+}

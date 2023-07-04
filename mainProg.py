@@ -8,6 +8,7 @@ def main(args):
     srlz.walkDir(data)
     dmpf = DMPF(srlz.dictFolders, data)
     dmpf.dumpToJson()
+    dmpf.dumpToCSV()
     # for key, value in srlz.dictFolders.items():
     #     print(f'{key}: {value}')
 
